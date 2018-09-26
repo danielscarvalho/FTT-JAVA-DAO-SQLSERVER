@@ -2,8 +2,8 @@ package cefsa.ftt.ec.fttdatabase.model;
 
 import java.io.Serializable;
 
-//JavaBean >> Dado >> Entidade
-//POJO - Plain Old Java Object
+//JavaBean >> Dado >> Entidade: https://pt.wikipedia.org/wiki/JavaBeans
+//POJO - Plain Old Java Object: https://pt.wikipedia.org/wiki/Plain_Old_Java_Objects
 
 public class People implements Serializable {
 

@@ -11,6 +11,7 @@ public class PeopleDao implements Dao {
 	//TODO: Delete
 	//TODO: List - retorna array list com todos...
 	//TODO: Get - retorna apenas 1 registro
+	//TODO: Get by name
 	
 	private Connection connection;
 	
@@ -49,6 +50,9 @@ public class PeopleDao implements Dao {
 		return new People(); //TODO: Work on it
 	}
 	public ArrayList<People> listPeople(People p) {
+		return new ArrayList<People>(); //TODO: Work on it
+	}
+	public ArrayList<People> getPeopleByName(People p) {
 		return new ArrayList<People>(); //TODO: Work on it
 	}
 	
